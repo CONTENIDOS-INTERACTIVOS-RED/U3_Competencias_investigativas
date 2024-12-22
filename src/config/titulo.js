@@ -1,1 +1,1 @@
-module.exports = 'Unidad 1: Principios básicos de la investigación científica'
+module.exports = 'Unidad 3: Diseño metodológico y planificación de proyectos'

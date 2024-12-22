@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Principios básicos de la investigación científica',
+    numeroUnidad: '3',
+    tituloUnidad: 'Diseño metodológico y planificación de proyectos',
   },
   menuPrincipal: {
     menu: [
@@ -31,36 +31,29 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Introducción a la investigación científica',
+        titulo: 'Selección del enfoque metodológico.',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: '1.1.	Definición y concepto de investigación científica',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo:
-              'Acordeón1.2.	Importancia de la investigación en diversas disciplinas',
-            hash: 't_1_2',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Método científico',
+        titulo: 'Recolección de datos: técnicas y herramientas',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Características y etapas del método científico',
+            titulo: 'Técnicas de recolección de datos',
             hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo:
+              'Del enfoque metodológico al  diseño de un proyecto de investigación',
+            hash: 't_2_2',
           },
         ],
       },
@@ -68,41 +61,9 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Enfoques de investigación',
+        titulo: 'Elaboración de un cronograma',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Investigación cualitativa',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Investigación cuantitativa',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Investigación mixta',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Tipos de investigación',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo:
-              'Aplicación de los principios de la investigación científica en diferentes campos',
-            hash: 't_3_5',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'sintesis',
@@ -139,71 +100,73 @@ export default {
       },
     ],
   },
-  referencias: {
-    referencia:
-      'Medina, M., Rojas, R., y Bustamante, W. (2023). Metodología de la investigación: Técnicas e instrumentos de investigación. Instituto Universitario de Innovación Ciencia y Tecnología Inudi Perú.',
-    link: 'https://doi.org/10.35622/inudi.b.080',
-  },
+  referencias: [
+    {
+      referencia:
+        'Albán, G. P. G., Arguello, A. V., & Molina, N. E. C. (2020). Metodologías de investigación educativa (descriptivas, experimentales, participativas, y de investigación-acción). RECIMUNDO: Revista Científica de la Investigación y el Conocimiento, 4(3), 163-173.',
+      link: 'https://www.recimundo.com/index.php/es/article/view/860',
+    },
+    {
+      referencia:
+        'Hernández Sampieri, R., Mendoza Torres, C. P. (2018). Metodología de la investigación: las rutas cuantitativa, cualitativa y mixta. McGraw-Hill.',
+      link: 'https://www-ebooks7-24-com.ezproxy.uniminuto.edu/?il=6443',
+    },
+  ],
   glosario: [
     {
-      termino: 'Enfoque cualitativo',
+      termino: 'Cronograma',
       significado:
-        'Metodología de investigación que se centra en comprender la realidad social desde una perspectiva subjetiva, recopilando datos descriptivos sobre experiencias y percepciones.',
+        'Herramienta de planificación que organiza temporalmente las actividades de investigación, incluyendo hitos y puntos de control para evaluar el avance del proyecto.',
     },
     {
-      termino: 'Enfoque cuantitativo',
+      termino: 'Entrevista semi-estructurada',
       significado:
-        'Metodología que se basa en la medición de variables y análisis estadístico para verificar teorías y establecer relaciones objetivas entre fenómenos.',
+        'Herramienta de investigación que utiliza una guía de preguntas flexibles, permitiendo una conversación dinámica mientras mantiene el enfoque en temas específicos.',
     },
     {
-      termino: 'Ética en investigación',
+      termino: 'Escalas de diferencial semántico',
       significado:
-        'Conjunto de principios morales que guían la conducta del investigador y establecen límites entre la actividad investigativa y la aplicación de métodos.',
+        'Instrumento que mide las reacciones de las personas hacia conceptos o estímulos mediante pares de adjetivos opuestos (por ejemplo: bueno-malo, fuerte-débil), donde el participante selecciona un punto en el continuo entre ambos extremos.',
     },
     {
-      termino: 'Evidencia empírica',
+      termino: 'Escalas de medición',
       significado:
-        'Se refiere a la información, datos u observaciones obtenidas a través de experiencias directas, observación sistemática o experimentación controlada que se utiliza para apoyar o refutar una hipótesis, teoría o afirmación científica.',
+        'Instrumentos que permiten asignar valores numéricos a constructos que no son directamente observables, como actitudes o percepciones.',
     },
     {
-      termino: 'Hipótesis',
+      termino: 'Escalas de ordenamiento',
       significado:
-        'Explicaciones tentativas o predicciones sobre el fenómeno estudiado que establecen relaciones entre variables y guían el diseño de la investigación.',
+        'Tipo de escala donde los participantes deben organizar una serie de elementos o alternativas según un criterio específico (como preferencia, importancia o frecuencia), asignándoles rangos o posiciones relativas entre sí.',
     },
     {
-      termino: 'Investigación científica',
+      termino: 'Escalas Likert',
       significado:
-        'Proceso que implica la búsqueda sistemática de conocimientos mediante métodos específicos y reflexión sobre la validez de los resultados.',
+        'Instrumento de medición que presenta una serie de afirmaciones ante las cuales los participantes indican su nivel de acuerdo o desacuerdo, típicamente en un rango de 5 o 7 puntos (por ejemplo: desde "totalmente en desacuerdo" hasta "totalmente de acuerdo").',
     },
     {
-      termino: 'Investigación mixta',
+      termino: 'Estado del arte',
       significado:
-        'Enfoque metodológico que combina elementos cualitativos y cuantitativos para obtener una comprensión más completa de los fenómenos estudiados.',
+        'Recopilación y análisis de investigaciones recientes (últimos 5 años) relacionadas con el tema de estudio, abarcando contextos internacionales, nacionales y locales.',
     },
     {
-      termino: 'Método científico',
+      termino: 'Grupos focales',
       significado:
-        'Conjunto de principios y reglas sistemáticas que guían el proceso investigativo, desde la identificación de un problema hasta la comunicación de resultados.',
+        'Técnica de recolección de datos mediante entrevistas grupales semi-estructuradas con 6-12 participantes, guiadas por un moderador en torno a una temática específica.',
     },
     {
-      termino: 'Objetividad',
+      termino: 'Marco teórico',
       significado:
-        'Principio que busca eliminar sesgos personales en la investigación y mantener una perspectiva neutral en la recolección y análisis de datos.',
+        'Descripción de teorías, conceptos y enfoques que fundamentan y guían la investigación, incluyendo la evolución histórica de los conceptos clave.',
     },
     {
-      termino: 'Reproducibilidad',
+      termino: 'Pruebas estandarizadas',
       significado:
-        'Característica que permite que los resultados de una investigación puedan ser replicados por otros investigadores bajo condiciones similares.',
+        'Instrumentos validados y normalizados que proporcionan medidas objetivas de una muestra de conducta, con procedimientos uniformes de administración y calificación.',
     },
     {
-      termino: 'Sistematicidad',
+      termino: 'Validación de instrumentos',
       significado:
-        'Principio que implica seguir un orden lógico y estructurado en el proceso de investigación.',
-    },
-    {
-      termino: 'Verificabilidad',
-      significado:
-        'Principio que establece que los resultados de una investigación deben poder ser comprobados mediante evidencia empírica.',
+        'Proceso de verificación de la calidad y pertinencia de los instrumentos de investigación, ya sea mediante evaluación de expertos o pruebas piloto, para evitar sesgos en la recolección de información.',
     },
   ],
   complementario: [

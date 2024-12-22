@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La investigación científica es el proceso sistemático que utiliza principios como objetividad, reproducibilidad y verificabilidad para generar conocimiento en diversos campos. Estos principios guían desde la identificación de problemas hasta la formulación de hipótesis, recolección y análisis de datos, asegurando resultados válidos y confiables. Según el enfoque (cualitativo, cuantitativo o mixto), y el tipo (básica, aplicada, formativa), la investigación aborda fenómenos desde perspectivas teóricas y prácticas. Su flexibilidad permite adaptarse a diferentes disciplinas, como medicina, ciencias sociales e ingeniería, promoviendo avances científicos, innovación y desarrollo en la sociedad.
+              p.descripcion.mb-4 Los enfoques metodológicos en investigación incluyen: cuantitativo (medición numérica, análisis estadístico, replicabilidad), cualitativo (comprensión profunda, análisis contextual) y mixto (combinación de ambos para problemas complejos). La elección depende del problema, objetivos, recursos y contexto. La recolección de datos se realiza con instrumentos cuantitativos (encuestas, escalas, pruebas) y cualitativos (entrevistas, observación, grupos focales). Los proyectos de investigación requieren planificación detallada, contemplando diseño, validez, confiabilidad y ética. La propuesta debe incluir título, objetivos, marco teórico, metodología, cronograma y presupuesto. Un cronograma bien estructurado asegura organización y supervisión efectiva.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Quien persiste en aprender y descubrir, transforma el mundo con conocimiento.
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold El esfuerzo que dedicas hoy es el puente hacia el logro de tus sueños mañana.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

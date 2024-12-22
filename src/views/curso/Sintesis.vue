@@ -2,7 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La investigación científica impulsa el conocimiento mediante la aplicación rigurosa del método científico, que incluye la observación, formulación de hipótesis, recolección y análisis de datos, y verificación para generar teorías válidas. Sus enfoques principales son cualitativo, cuantitativo y mixto, seleccionados según el problema y los objetivos del estudio. Este proceso, esencial en todas las disciplinas, debe seguir principios éticos que garanticen integridad y transparencia. A través de métodos estructurados y responsables, la investigación científica permite resolver problemas complejos y desarrollar teorías sólidas.
+    p.mb-4.mb-md-5 El diseño metodológico y la planificación de proyectos son fundamentales en la investigación, ya que establecen un marco organizado para alcanzar los objetivos planteados. Esto implica seleccionar un enfoque metodológico adecuado según el tipo de estudio, emplear técnicas de recolección de datos como encuestas, entrevistas u observaciones, y estructurar las etapas del proyecto de manera lógica. Además, la planificación de recursos y la elaboración de un cronograma detallado aseguran el uso eficiente del tiempo y la disponibilidad de recursos necesarios, facilitando un desarrollo coherente y eficaz del proceso investigativo.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
