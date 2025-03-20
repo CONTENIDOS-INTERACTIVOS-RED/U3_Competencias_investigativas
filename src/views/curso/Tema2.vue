@@ -235,9 +235,9 @@
         .bg-morado.p-4.mb-4
           span Seleccionar y emplear las técnicas adecuadas es esencial para garantizar resultados sólidos y relevantes en la investigación.
 
-    #t_2_1.titulo-segundo
+    #t_2_2.titulo-segundo
       div.d-flex
-        span.me-3 2.1  
+        span.me-3 2.2  
         h2 Del enfoque metodológico al  diseño de un proyecto de investigación
 
     .row.mb-4 
@@ -355,7 +355,7 @@
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Estructura general de una propuesta de investigación
           p.mb-3 En esta oportunidad, se invita a revisar la estructura propuesta por Gregorio Rojas para proyectos de investigación, destacando la importancia de incluir un apartado explícito sobre las consideraciones éticas. Este espacio permite detallar las medidas tomadas durante la planeación, ejecución y difusión de los resultados del estudio.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Estructura general de una propuesta de investigación.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong>Estructura general de una propuesta de investigación
              
